@@ -17,5 +17,9 @@ app.get('/dashboard', function (req, res) {
 });
 
 app.listen(port, function () {
+<<<<<<< HEAD
     console.log('express server backend running on port', port);
+=======
+    console.log('express server running on port local asshole', port);
+>>>>>>> basic-express-server
 });

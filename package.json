@@ -2,9 +2,9 @@
   "name": "expressjs-backend",
   "version": "1.0.0",
   "description": "Simple Express Server",
-  "main": "src/app.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node ./src/app.js ",
+    "start": "node src/app.js ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,5 +24,8 @@
   "homepage": "https://github.com/python-quach/expressjs-backend#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.5"
   }
 }
